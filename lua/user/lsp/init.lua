@@ -6,3 +6,8 @@ end
 require "user.lsp.mason"
 require("user.lsp.handlers").setup()
 require "user.lsp.null-ls"
+require "colorizer".setup({
+  user_default_options = {
+    tailwind = true,
+  }
+})
