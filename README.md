@@ -47,7 +47,7 @@ sudo apt install ripgrep
 #### Resize with arrow
 ```
 <Ctrl>+Up           -   resize horizontally
-<Ctrl>+Down         -   resize horzontally
+<Ctrl>+Down         -   resize horizontally
 <Ctrl>+Left         -   resize vertically
 <Ctrl>+Right        -   resize vertically
 ```
