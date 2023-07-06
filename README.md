@@ -26,18 +26,13 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-Run `nvim`
-
 Install `ripgrep` for Telescope to work:
 
 ```sh
 sudo apt install ripgrep
 ```
 
-Check health status
-```sh
-:checkhealth
-```
+Run `nvim`
 
 run `:Mason` and install
 ```
@@ -54,6 +49,11 @@ yaml-language server
 ```
 
 run `:PackerUpdate`
+
+Check health status
+```sh
+:checkhealth
+```
 
 # Commands / Shortcuts
 
