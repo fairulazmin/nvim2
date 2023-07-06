@@ -28,14 +28,13 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 Run `nvim`
 
-Check health status
-
 Install `ripgrep` for Telescope to work:
 
 ```sh
 sudo apt install ripgrep
 ```
 
+Check health status
 ```sh
 :checkhealth
 ```
