@@ -1,11 +1,11 @@
 # Personnal Neovim preferences based on chrisatmachine config 
 
+## Install Node.js & npm
+```sh
+sudo apt install nodejs npm
+```
 ## Install Neovim
 
-```sh
-sudo apt install neovim
-```
-or
 ```sh
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
@@ -20,18 +20,41 @@ Clone this repository
 git clone https://github.com/fairulazmin/nvim2 ~/.config/nvim
 ```
 
+Install Packer
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
 Run `nvim`
 
 Check health status
 
-```sh
-:checkhealth
-```
 Install `ripgrep` for Telescope to work:
 
 ```sh
 sudo apt install ripgrep
 ```
+
+```sh
+:checkhealth
+```
+
+run `:Mason` and install
+```
+autopep8
+bash-language-server
+css-lsp
+html-lsp
+json-lsp
+prettier
+pyright
+tailwindcss-language-server
+typescript-language-server
+yaml-language server
+```
+
+run `:PackerUpdate`
 
 # Commands / Shortcuts
 
