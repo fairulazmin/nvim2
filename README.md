@@ -1,4 +1,9 @@
-# Personnal Neovim preferences based on chrisatmachine config 
+# Personnal Neovim preferences
+## [Install wsl & Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#3-download-ubuntu)
+Open Windows Command Prompt in administrator mode
+```
+wsl --install -d Ubuntu-20.04
+```
 
 ## Install Node.js & npm
 ```sh
