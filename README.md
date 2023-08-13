@@ -122,9 +122,7 @@ node -v && npm -v
 ## Install Neovim
 
 ```
-sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update
-sudo apt-get install neovim
+sudo add-apt-repository ppa:neovim-ppa/unstable && sudo apt-get update && sudo apt-get install neovim
 ```
 
 Clone this repository
@@ -147,6 +145,10 @@ sudo apt install ripgrep
 
 Run `nvim`
 
+run `:PackerInstall`
+
+run `:PackerUpdate`
+
 run `:Mason` and install
 ```
 autopep8
@@ -160,8 +162,6 @@ tailwindcss-language-server
 typescript-language-server
 yaml-language server
 ```
-
-run `:PackerUpdate`
 
 Check health status
 ```
