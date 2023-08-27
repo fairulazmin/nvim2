@@ -79,6 +79,7 @@ gl                  -   open float diagnostic
 <Ctrl>+w <          -   Incrementally increase the window to the left.
 <Ctrl>+w -          -   Incrementally decrease the window's height.
 <Ctrl>+w +          -   Incrementally increase the window's height.
+```
 
 # How to install Neovim
 ## [Install wsl & Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#3-download-ubuntu)
