@@ -7,6 +7,8 @@
 <Ctrl>+j            -   move down
 <Ctrl>+k            -   move up
 <Ctrl>+l            -   move to the right
+<Ctrl> +            -   zoom in
+<Ctrl> +            -   zoom out
 ```
 
 #### Resize with arrow
@@ -60,6 +62,23 @@ gl                  -   open float diagnostic
 <leader>+ls         -   document symbols
 <leader>+lq         -   quick fix
 ```
+
+### WINDOW
+```
+<Ctrl>+w s          -   Split current window horizontally
+<Ctrl>+w v          -   Split current window vertically
+<Ctrl>+w c          -   Close current window
+<Ctrl>+W r          -   Swap bottom/top if split horizontally
+<Ctrl>+W R          -   Swap top/bottom if split horizontally
+<Ctrl>+w <Ctrl>+w   -   switch between windows
+<Ctrl>+w UP         -   Move to the top window from current window
+<Ctrl>+w DOWN       -   Move to the bottom window from current window
+<Ctrl>+w LEFT       -   Move to the left window from current window
+<Ctrl>+w RIGHT      -   Move to the right window from current window
+<Ctrl>+w >          -   Incrementally increase the window to the right.
+<Ctrl>+w <          -   Incrementally increase the window to the left.
+<Ctrl>+w -          -   Incrementally decrease the window's height.
+<Ctrl>+w +          -   Incrementally increase the window's height.
 
 # How to install Neovim
 ## [Install wsl & Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#3-download-ubuntu)
