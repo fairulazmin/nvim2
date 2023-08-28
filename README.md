@@ -187,3 +187,7 @@ Check health status
 ```
 :checkhealth
 ```
+## Uninstall Neovim
+```
+sudo apt-get purge neovim
+```
